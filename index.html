@@ -1,0 +1,193 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio responsive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav class="navlinks">
+                <a href="" class="logo"><span>K</span>evin.</a>
+                <ul class="navlist">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#service">service</a></li>
+                    <li><a href="#portofolio">portofolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-xmark" id="close" onclick="closeMenu()"></i>
+    
+                </ul>
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+
+            </nav>
+           
+        </div>
+        <div class="header-text">
+            <h2>UI/UX Designer</h2>
+            <h1>Hi , I'm <span>Kevin</span> <br> Jen From Australia</h1>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                  <img src="IMG/3.png" alt="">
+                </div>
+                <div class="col-2">
+                    <h1>About</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste labore doloribus officia recusandae autem vel eius! Dignissimos quasi voluptates labore autem fugit debitis atque voluptas. Quisquam explicabo doloribus iure. Ipsum ea quibusdam libero, nesciunt dolorum expedita in commodi porro nostrum, dignissimos sapiente unde hic placeat laboriosam quam ratione, veritatis odit ipsa.</p>
+                  <div class="tab-titles">
+                    <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                    <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                    <div class="tab-links" onclick="opentab('education')">Education</div>
+                  </div>
+                  <div class="table-list active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span> <br>Designing Web/App interface</li>
+                        <li><span>Web Devolopment</span> <br> Web app Devolopment</li>
+                        <li><span>App Devolopment </span> <br>Building Android /IOS app</li>
+                    </ul>
+                  </div>
+                    <div class="table-list" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span> <br>UI /UX Design Training at Institute</li>
+                        <li><span>2019 - 2021</span> <br> Team load at StarApp Uc</li>
+                        <li><span>2017 - 2019 </span> <br>UI/UX Design Executive at Coin Digital Ltd</li>
+                        <li><span>2016 - 2017 </span> <br>Internship at ekart ecommerce</li>
+                    </ul>
+                  </div>
+                    <div class="table-list" id="education">
+                    <ul>
+                        <li><span>2006</span> <br>UI/UX Design Training at Dt Institute</li>
+                        <li><span>2006</span> <br> MOA from Mit Bangalaros</li>
+                        <li><span>2014 </span> <br>BBA from ISM Bangalaro</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="service">
+        <div class="container">
+            <div class="subtitle">
+                <h1>my service</h1>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat rerum sapiente aspernatur commodi culpa molestias veniam, qui odio.</p>
+                   <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="box">
+                   <i class="fa-sharp-duotone fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat rerum sapiente aspernatur commodi culpa molestias veniam, qui odio.</p>
+                    
+                   <a href="#" class="btn">Learn More</a>
+                </div>
+              <div class="box">
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat rerum sapiente aspernatur commodi culpa molestias veniam, qui odio.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+     <div id="portofolio">
+        <div class="container">
+              <div class="subtitle">
+                <h1>my work</h1>
+            </div>
+            <div class="flex-grid">
+                <div class="grid">
+                    <img src="IMG/1.jpeg" alt="">
+                    <div class="contents">
+                    <h1>Social Media App</h1>
+                    <p>The app connects you thr talented people around the world .Download from play store</p>
+                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+                </div>
+                   <div class="grid">
+                        <img src="IMG/2.jpeg" alt="">
+                       <div class="contents">
+                          <h1>Music App</h1>
+                         <p>The app connects you thr talented people around the world .Download from play store</p>
+                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                       </div>
+                </div>
+                   <div class="grid">
+                    <img src="IMG/3.jpeg" alt="">
+                    <div class="contents">
+                       <h1>Online Shopping App</h1>
+                       <p>The app connects you thr talented people around the world .Download from play store</p>
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </div>
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <h1>Contact Me</h1>
+                    <p><span><i class="fa-etch fa-solid fa-paper-plane"></i></span>contact@example.com</p>
+                    <p><span><i class="fa-notdog-duo fa-solid fa-square-phone"></i></span>0123445789</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                       <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                       <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="#" class="btn">Download CV</a>
+                    
+                </div>
+                <div class="right">
+                    <form>
+                        <input type="name" placeholder="Your name">
+                        <input type="email" placeholder="Your Email">
+                        <textarea name="" id="" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+     <footer>
+        <p>Copyright&copy; Kevin Mode with <span><i class="fa-notdog-duo fa-solid fa-heart"></i></span> by Easy Tutorials</p>
+     </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tables = document.getElementsByClassName("table-list");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(table of tables) {
+                table.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var navlist = document.querySelector(".navlist");
+        function  openMenu() {
+            navlist.style.right = "0"
+        }
+         function  closeMenu() {
+            navlist.style.right = "-250px";
+        }
+        
+    </script>
+    
+</body>
+</html>
